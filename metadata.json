@@ -1,0 +1,8 @@
+{
+  "name": "ROYAL X11",
+  "description": "Build your APK while removing the blue wallpaper overlay and fixing loading issues for a clean home screen.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>ROYAL 11</title>
+    <meta name="description" content="ROYAL 11 Esports Tournament & Gaming Platform" />
+    <meta property="og:title" content="ROYAL 11" />
+    <meta property="og:description" content="ROYAL 11 Esports Tournament & Gaming Platform" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Pure White Status Bar Matching Clean White Home Screen -->
+    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="ROYAL 11" />
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <style>
+      html, body {
+        background-color: #ffffff !important;
+        color: #1b1530;
+        margin: 0;
+        padding: 0;
+        overscroll-behavior: none !important;
+        overscroll-behavior-y: none !important;
+        -webkit-overscroll-behavior: none !important;
+        -webkit-tap-highlight-color: transparent;
+      }
+      #statusBarFill {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: env(safe-area-inset-top, 0px);
+        background: #ffffff;
+        z-index: 9999;
+        pointer-events: none;
+      }
+    </style>
+    <script defer src="https://zapupi.com/single-html-web-kit.js"></script>
+  </head>
+  <body class="bg-white text-[#1b1530] min-h-screen">
+    <div id="statusBarFill"></div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
