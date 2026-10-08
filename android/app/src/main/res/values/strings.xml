@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ROYAL X11</string>
+    <string name="title_activity_main">ROYAL X11</string>
+    <string name="package_name">com.royalx11.app</string>
+    <string name="custom_url_scheme">com.royalx11.app</string>
+</resources>
